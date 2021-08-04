@@ -6,11 +6,11 @@ import './App.css'
 
 export default class App extends Component {
     state = {todos: [
-        {id: '001', name: "Having Breakfast", done: true},
-        {id: '002', name: "Having Lunch", done: true },
-        {id: '003', name: "Coding", done: true },
-        {id: '004', name: "Having Dinner", done: true },
-        {id: '005', name: "Sleeping", done: true }
+        {id: '001', name: "Having Breakfast", done: false},
+        {id: '002', name: "Having Lunch", done: false },
+        {id: '003', name: "Coding", done: false },
+        {id: '004', name: "Having Dinner", done: false },
+        {id: '005', name: "Sleeping", done: false }
     ]}
 
 
